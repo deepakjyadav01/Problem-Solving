@@ -1,0 +1,47 @@
+You are given a stream of positive integers as input and the stream ends when you encounter an negative element.
+
+You need to save this numbers in an ArrayList and then print this numbers in reverse order.
+
+NOTE: See example input/output for further understanding
+
+
+
+Input Format
+
+Input contains of several lines where each line contain a single integer denoting the stream of integers.
+
+
+Output Format
+
+Output the inputted stream in reverse format as space-separated integers in a single line.
+
+
+Example Input
+
+Input 1:
+
+ 11
+ 1
+ 2
+ 6
+ 0
+ -2
+Input 2:
+
+ 10
+ 2
+ -1
+Example Output
+
+Explanation 1:
+
+ 0 6 2 1 11
+Explanation 2:
+
+ 2 10
+Example Explanation
+
+Explanation 1:
+
+ The inputted stream looks like: [11, 1, 2, 6, 0]
+ We need to print the reverse of this.
